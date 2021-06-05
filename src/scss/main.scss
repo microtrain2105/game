@@ -1,3 +1,18 @@
 canvas {
-    background: #222;
-} 
+    background: rgb(3, 41, 99);
+    border: 15px solid rgb(248, 20, 20);
+    border-radius: 50px;
+  }
+  
+  /* 4. Over lay the score on the top left corner of the canvas.*/
+  #score {
+    position: absolute;
+    top: 20px;
+    left: 380px;
+    z-index: 100;
+    font-family: 'Sigmar One', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+  }
+  
